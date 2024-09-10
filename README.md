@@ -7,11 +7,11 @@ alat yang digunakan
 4. kabel jumper female to female
 5. kabel usb
    Pin lcd to nodemcu
-   GND - G
-   VCC - VIN
-   SDA - D2
-   SCL - D1
+- GND - G
+- VCC - VIN
+- SDA - D2
+- SCL - D1
    Pin dht11 to node mcu
-   VCC - 3V
-   DATA - D4
-   GND - G
+- VCC - 3V
+- DATA - D4
+- GND - G
