@@ -2,9 +2,9 @@
 #include <DHT.h>
 #include <ThingSpeak.h>
  
-const char *ssid =  "ICTTKJ 4G";  
-const char *pass =  "skans4ict01";
-const char *server = "api.thingspeak.com";
+const char *ssid =  "Name Wifi";// Nama wifi yang akan di pakai
+const char *pass =  "password";// katasandi 
+const char *server = "api.thingspeak.com";//server yang akan dipakai
 
 #define DHTPIN 2 //pin DATA konek ke pin 2 Arduino
 #define DHTTYPE DHT11 //tipe sensor DHT11
@@ -13,8 +13,8 @@ DHT dht(DHTPIN, DHTTYPE); //set sensor + koneksi pin
  
 WiFiClient client;
  
-long myChannelNumber =   2315244;
-const char myWriteAPIKey[] = "TO5H5RBK5AW0UISW";
+long myChannelNumber =   2315244;//channel id pada server thingspeak
+const char myWriteAPIKey[] = "TO5H5RBK5AW0UISW";//Write APIkeys pada server thingspeak
  
 void setup() {
   // put your setup code here, to run once:
