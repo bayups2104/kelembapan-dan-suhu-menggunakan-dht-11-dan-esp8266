@@ -11,7 +11,7 @@ alat yang digunakan
 - VCC - VIN
 - SDA - D2
 - SCL - D1
-   Pin dht11 to node mcu
+  Pin dht11 to node mcu
 - VCC - 3V
 - DATA - D4
 - GND - G
